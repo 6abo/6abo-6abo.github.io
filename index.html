@@ -3,35 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Christian Alvarez</title>
+    <title>Christian Alvarez Portfolio</title>
     <link rel="stylesheet" href="style.css">
-    
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <script src="libraries/p5.min.js"></script>
+    <script src="libraries/p5.sound.min.js"></script>
 </head>
 <body>
-    <div class="main">
-        <div class="container">
+    <canvas id="bgAnimation"></canvas>
+    <div class="portfolio">
+        <!-- Background Effect -->
+        <div class="background"></div>
+        
+        <!-- Main Content -->
+        <div class="content">
             <header>
                 <h1>Christian Alvarez</h1>
+                <p class="tagline">Graphic Design & Illustration</p>
             </header>
-            <div class="botonera">
-                <div class="boton">
-                    <a href="https://6abo.github.io/hola_mundo"> Hola Mundo</a>
-                </div>
-                <div class="boton"></div>
-                    <a href="https://6abo.github.io/condicionales"> Condicionales</a>
-                </div>
-                <div class="boton"></div>
-                    <a href="https://6abo.github.io/computer_visual"> Filtros teacheme</a>
-                </div>
-                <div class="boton"></div>
-                    <a href="https://6abo.github.io/computer_visual"> Filtros teacheme</a>
-                </div>
+            
+            <!-- Buttons Section -->
+            <div class="button-section">
+                <a href="https://6abo.github.io/hola_mundo" class="button">Hola Mundo</a>
+                <a href="https://6abo.github.io/condicionales" class="button">Condicionales</a>
+                <a href="https://6abo.github.io/computer_visual" class="button">Filtros TeachMe</a>
+                <a href="https://6abo.github.io/bucle_for/" class="button">Bucle For</a>
+                <a href="https://6abo.github.io/programacion_orientada_a_objetos/" class="button">Programación Orientada a Objetos</a>
+                <a href="https://6abo.github.io/bucle_for/" class="button">Slider</a>
+                <a href="https://6abo.github.io/WFC/" class="button">WFC</a>
+            </div>
+
+            <!-- Highlight Section -->
+            <div class="highlight">
+                <p>2024 Portfolio</p>
+                <span>Explora mis ultimos proyectos!</span>
             </div>
         </div>
     </div>
+    <script src="sketch.js"></script>
 </body>
 </html>
